@@ -1,0 +1,31 @@
+# Vendored third-party deps (see include/README.md and lib/README.md)
+/include/*
+!/include/README.md
+/lib/*
+!/lib/README.md
+
+# Build output
+/src/builds/
+*.exe
+*.obj
+*.ilk
+*.pdb
+
+# Optional debug texture dump (see src/load_bsp.cpp)
+/src/builds/debug_textures/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# Editor backups
+*~
+*.bak
+
+materials/**/*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

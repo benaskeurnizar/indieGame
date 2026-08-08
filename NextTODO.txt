@@ -1,0 +1,10 @@
+
+- Better and smoother mouvement,with jumping .  *(done for now,view it back later)
+- Better lighting with material reflection,shaddows and better light hitting faces.  (just light it based on this mesh thing then we'll see what happens,even if wrong)
+- add objects other then faces,each with it's own physics.
+- then...idk maybe a player system kind of thing,with a gun,his shaddow,interraction with the world.
+- audio.
+
+
+
+* also consider rendering everything in vulkan.

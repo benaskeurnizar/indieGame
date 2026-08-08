@@ -1,0 +1,4 @@
+afloor3_1  ..\\..\\materials\\marble\\marble_texture2.png
+city2_1,city2_2,city2_3,city2_7  ..\\..\\materials\\marble\\marble_texture1.png
+city5_3 ..\\..\\materials\\marble\\marble_texture4.png
+city4_5 ..\\..\\materials\\marble\\marble_texture4.png

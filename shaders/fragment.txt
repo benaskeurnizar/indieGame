@@ -1,0 +1,17 @@
+#version 330 core
+
+in vec3 FragPos;
+in vec2 TexCoord;
+in float Brightness;
+
+
+out vec4 FragColor;
+
+uniform sampler2D texture0;
+
+void main() {
+    // Sample texture
+    vec4 texColor = texture(texture0, TexCoord);
+  
+    FragColor = vec4(texColor.rgb * Brightness, 1.0);
+}
